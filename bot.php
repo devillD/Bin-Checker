@@ -6,7 +6,7 @@ error_reporting(0);
 set_time_limit(0);
 
 flush();
-$API_KEY = $_ENV['BOT_TOKEN']; 
+$API_KEY = "Bot Token"; 
 ##------------------------------##
 define('API_KEY',$API_KEY);
 function bot($method,$datas=[]){
@@ -87,6 +87,8 @@ bot('sendmessage', [
 ➤ Bank : $bank
 
 ➤ Country : $country
+
+Bot by @unkusr
 ***",
 'parse_mode'=>"MarkDown",
 ]);
